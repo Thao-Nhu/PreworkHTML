@@ -1,0 +1,68 @@
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 100px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  #build {
+    color:white;
+    background-color:rgb(32, 101, 136);
+  }
+  
+  .find-package {
+position:relative;
+  }
+
+  .top-find-package {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+    top:0;
+    list-style-type: none;
+  }
+
+
+.logo-bear {
+        position:absolute;
+        top:0;
+        right:0;
+        float:right;
+          }
+
+.build-text {
+    margin: 0 auto;
+    width: 750px;
+    position:relative;
+  }
+
+.logo-city{
+
+   }
+  
+.logo{
+    float:left;
+    width:60px;
+   }
+
+  
+  .link-btn {
+    background-color: rgb(240, 146, 51);
+  }
