@@ -27,42 +27,106 @@ nav {
   }
   
   .find-package {
-position:relative;
-  }
-
-  .top-find-package {
     display: inline-block;
-    float: right;
-    padding: 0;
-    margin: 0 20px 0 0;
-    top:0;
-    list-style-type: none;
+    float:left;
+    margin: 0 0 0 0;
+    padding:0 0 0 0;
+    height: 100px;
   }
 
-
-.logo-bear {
-        position:absolute;
-        top:0;
-        right:0;
-        float:right;
-          }
+.label-find-package {
+    width:1100px;
+  }
 
 .build-text {
-    margin: 0 auto;
-    width: 750px;
-    position:relative;
+    padding-top:60px;
+    padding-left:60px;
+    background: url(images/city-scape.svg);
+    background-size:120% 100%;
+    height:250px;
   }
 
-.logo-city{
-
-   }
-  
-.logo{
-    float:left;
-    width:60px;
-   }
-
-  
-  .link-btn {
+.package-text {
+    width:600px;
+  }
+.link-btn {
     background-color: rgb(240, 146, 51);
   }
+
+  #collaboration {
+    color:white;
+    background-color:rgb(39, 53, 71);
+    padding:60px 60px 60px 60px;
+  }
+
+  .collaboration-text1{
+    float:right;
+    position:relative;
+    left:-400px; 
+  }
+
+  .collaboration-text2{
+    float:right;
+    position:relative;
+    top:50px;
+    left:-15px; 
+  }
+
+  .collaboration-text3{
+    float:right;
+    position:relative;
+    top:-25px;
+    left:-680px; 
+  }
+
+  .link-btn2 {
+    background-color: rgb(203, 56, 55);
+  }
+
+  #whatis {
+    color:white;
+    background-color:rgb(49, 68, 88);
+    padding:60px 60px 60px 60px;
+    height:200px;
+    background:url(images/forklift.svg);
+    background-size:cover;
+  }
+
+
+  .usenpm-text {
+   width:400px;
+    }
+  
+  .col {
+      float: left;
+    }
+
+  .service-box {
+      border: 2px solid #eee;
+      border-radius: 10px;
+      box-sizing: border-box;
+      box-shadow: 2px 2px 10px 0 #eee;
+      font-size: 1em;
+      margin: 10px 2% 0;
+      padding: 10px;
+      text-align: center;
+      width: 25%;
+    }
+
+  .container {
+      margin: 0 auto;
+      padding: 15px 0;
+      width: 1100px;
+    }
+
+  .heading {
+      color: rgb(83, 88, 98);
+    }
+
+  .secondary {
+      color: rgb(135, 145, 156);
+    }
+
+  .links {
+      color: rgb(208, 74, 73);
+    }
